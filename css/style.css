@@ -39,7 +39,6 @@ body{
 .cs-btn:hover{
     text-decoration: none;
     color: white;
-    border-radius: 15px;
 }
 .wh{
     color: white;
@@ -47,4 +46,10 @@ body{
 .form-sign{
     background: #3B5998;
     overflow: hidden;
+}
+@media (min-width: 1200px) {
+ .top{    top: 4%;}   
+}
+.kk{
+    margin-top: 31px;
 }
