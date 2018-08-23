@@ -1,14 +1,22 @@
 body{
-	overflow-x: hidden;
+    overflow-x: hidden;
 }
 .form-back{
-	background: url('../images/ban.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 100vh;
-	position: relative;
+    background: url('../images/ban.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
 }
-.row{
+.top{
+    position: absolute;
+    max-width: 600px !important;
+    left: 50%;
+    transform: translate(-50%,-11%);
+    top: 13%;
+    width: 100%;
+}
+.center{
     max-width: 600px !important;
     background-color: #2c2c3470;
     position: absolute;
@@ -29,7 +37,14 @@ body{
     transition: 0.5s;
 }
 .cs-btn:hover{
-	text-decoration: none;
-	color: white;
-	border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+}
+.wh{
+    color: white;
+}
+.form-sign{
+    background: #3B5998;
+    overflow: hidden;
 }
